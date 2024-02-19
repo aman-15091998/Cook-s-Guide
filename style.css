@@ -59,7 +59,7 @@ header {
     min-height: 100vh;
     height:100vh;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
     background-image:url("assets/cover/1.jpg") ;
     background-repeat: no-repeat;
@@ -123,7 +123,7 @@ header {
     min-width: 500px;
     height: 180px;
     background-color: var(--light);
-    border: 1px solid red;
+    /* border: 1px solid red; */
     border-radius: 10px;
     padding: 0px 20px; 
     box-sizing: border-box;
@@ -299,7 +299,7 @@ header {
   .show-container{
     background-image: url("/assets/cover/1.jpg");
     /* background-size: 150% 150%; */
-    background-position: top 100px right 0px;
+    background-position: top 90px right 0px;
   }
   .product-details {
     width: 60%;
