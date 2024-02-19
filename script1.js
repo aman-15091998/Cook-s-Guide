@@ -120,3 +120,8 @@ searchInput.addEventListener("input", (e) => {
   if (e.target.value == "") searchResults.innerHTML = "";
   else loadRecipies(e.target.value);
 });
+window.addEventListener("load", () => {
+  if (searchInput.value.trim() != "") {
+    loadRecipies(searchInput.value);
+  }
+});
