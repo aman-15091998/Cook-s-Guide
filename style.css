@@ -337,11 +337,11 @@ header {
     text-align: left;
   }
   .search {
-    width: 325px;
+    width: 350px;
     font-size: 1.25rem;
   }
   .product {
-    min-width: 325px;
+    min-width: 365px;
     height: 160px;
     padding: 0px 10px;
   }
