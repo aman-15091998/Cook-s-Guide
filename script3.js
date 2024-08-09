@@ -40,7 +40,7 @@ function addRecipies(data) {
     //adding the recipies in the frontend
     const newMeal = `<div class="product id-${meal.idMeal}">
   <div class="product-img">
-    <img
+  <img class="actualImg"
       src="${meal.strMealThumb}"
       alt=""
     />
@@ -67,6 +67,7 @@ function addRecipies(data) {
 </div>`;
     // fa-heart
     searchResults.insertAdjacentHTML("beforeend", newMeal); //adding the new recipie to the last
+   
   });
 }
 function addFavbtnEvents() {
